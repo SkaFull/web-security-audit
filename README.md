@@ -381,4 +381,4 @@ For security vulnerability reports, see [SECURITY.md](SECURITY.md).
 
 ## License
 
-[MIT](LICENSE) © 2026 OLS Security Audit Contributors
+[MIT](LICENSE) © 2026 SkaFull

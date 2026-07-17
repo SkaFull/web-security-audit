@@ -380,4 +380,4 @@ audits/<domain>/
 
 ## 许可证
 
-[MIT](LICENSE) © 2026 OLS Security Audit Contributors
+[MIT](LICENSE) © 2026 SkaFull
