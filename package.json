@@ -1,0 +1,70 @@
+{
+  "name": "web-security-audit",
+  "version": "1.0.0",
+  "description": "Universal web security audit tool with systematic per-domain scanning covering 600+ test items",
+  "main": "bin/cli.js",
+  "bin": {
+    "web-security-audit": "bin/cli.js",
+    "wsa": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint scripts/ bin/",
+    "lint:fix": "eslint scripts/ bin/ --fix",
+    "audit": "node bin/cli.js",
+    "ssl-check": "node scripts/ssl-cert-checker.js",
+    "ct-scan": "node scripts/ct-log-scanner.js",
+    "api-test": "node scripts/api-security-tester.js",
+    "jwt-test": "node scripts/jwt-forgery-tester.js",
+    "brute-test": "node scripts/brute-force-tester.js"
+  },
+  "keywords": [
+    "security",
+    "audit",
+    "web-security",
+    "penetration-testing",
+    "vulnerability-scanner",
+    "csp",
+    "cors",
+    "ssl",
+    "subdomain",
+    "wordpress",
+    "owasp"
+  ],
+  "license": "MIT",
+  "author": "SkaFull <security@skaful.com> (https://github.com/SkaFull)",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "steps/",
+    "templates/",
+    "docs/",
+    "MAIN.md",
+    "SKILL.md",
+    "README.md",
+    "README.zh-CN.md",
+    "README.zh-HK.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkaFull/web-security-audit"
+  },
+  "bugs": {
+    "url": "https://github.com/SkaFull/web-security-audit/issues"
+  },
+  "homepage": "https://github.com/SkaFull/web-security-audit#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0"
+  }
+}
